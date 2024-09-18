@@ -4,7 +4,7 @@ import org.junit.Assert;
 
 class CalculatorTest {
 
-    @org.junit.jupiter.api.Test
+    @Test
     void add() {
         Calculator calculator = new Calculator();
         double first = 1.0;
@@ -13,7 +13,7 @@ class CalculatorTest {
         Assert.assertEquals(3.0, result, 0.1);
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void subtract() {
         Calculator calculator = new Calculator();
         double first = 1.0;
@@ -22,7 +22,7 @@ class CalculatorTest {
         Assert.assertEquals(-1.0, result, 0.1);
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void multiply() {
         Calculator calculator = new Calculator();
         double first = 1.0;
@@ -31,7 +31,7 @@ class CalculatorTest {
         Assert.assertEquals(2.0, result, 0.1);
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void divide() {
         Calculator calculator = new Calculator();
         double first = 1.0;
